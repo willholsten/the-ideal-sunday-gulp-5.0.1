@@ -1,0 +1,170 @@
+/*************************************************************************
+
+HOMEPAGE
+
+*************************************************************************/
+
+/***** HERO *****/
+#Slideshow-16224880136dab3d0d {
+    background-color: var(--colorLightBeige);
+  }
+  
+  @media only screen and (max-width:768px) {
+    #Slideshow-16224880136dab3d0d .hero__title {
+      font-size: 32px;
+    }
+  }
+  
+  .index-section--hero .hero__text-content {
+    vertical-align: top;
+    text-align: center;
+    top: 45px;
+  }
+  
+  @media only screen and (min-width:769px) {
+    .index-section--hero .hero__text-content {
+      vertical-align: middle;
+      text-align: left;
+      top: 0;
+    }
+  }
+  
+  .hero .slideshow__slide .hero__image {
+    border-radius: 0;
+  }
+  
+  .hero__subtitle {
+    max-width: 500px;
+    font-size: 1.1em
+  }
+  
+  .hero__text-content .hero__text-shadow .btn {
+    color: var(--colorHeader) !important;
+  }
+  
+  #shopify-section-161374071425f58df7 img {
+    border-radius: 0;
+  }
+  
+  /***** OUR STORY *****/
+  #shopify-section-1622284163af916035 {
+    background-color: var(--colorLightYellow);
+    margin: 0;
+    padding: 45px 0;
+  }
+  
+  #shopify-section-1622284163af916035 p {
+    font-size: calc(var(--typeBaseSize) * 1.1);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  @media only screen and (min-width:769px) {
+    #shopify-section-1622284163af916035 {
+      padding: 100px 0;
+    }
+  
+    #shopify-section-1622284163af916035 p {
+      font-size: calc(var(--typeBaseSize) * 1.2);
+    }
+  }
+  
+  
+  #shopify-section-1622284163af916035 .rte a:last-of-type {
+    margin-left: 10px;
+  }
+  /***** COLLECTIONS *****/
+  #shopify-section-161934060891de6c34 .collection-item--below img {
+    object-fit: cover;
+    animation: none;
+    opacity: 1;
+  }
+  
+  #shopify-section-161934060891de6c34 .collection-item__title {
+    font-family: var(--typeHeaderPrimary);
+    font-size: calc(var(--typeHeaderSize) * 0.5);
+    font-weight: var(--typeHeaderWeight);
+    /* background-color: var(--colorLightYellow); */
+    border-radius: 0 0 var(--borderRadius) var(--borderRadius);
+    color: var(--colorHeader);
+    margin: 0 0 15px;
+    padding: 25px 5px;
+    line-height: 1.05;
+  }
+  
+  @media only screen and (min-width:769px) {
+    #shopify-section-161934060891de6c34 .collection-item__title {
+      font-size: calc(var(--typeHeaderSize) * 0.6);
+    }
+  }
+  
+  /***** PROMO GRID (3 COLUMNS) *****/
+  #shopify-section-16105319015c9df4d0 {
+    background-color: var(--colorLightYellow);
+  }
+  
+  #shopify-section-16105319015c9df4d0 .promo-grid > .flex-grid > .flex-grid__item:nth-child(2) .promo-grid__content {
+    color: #fff;
+  }
+  
+  #shopify-section-16105319015c9df4d0 .promo-grid__container {
+    border-radius: var(--borderRadius);
+    overflow: hidden;
+  }
+  
+  #shopify-section-16105319015c9df4d0 .promo-grid__content {
+    padding: 1.5em;
+  }
+  
+  #shopify-section-16105319015c9df4d0 .promo-grid__container .btn {
+    color: var(--colorTextBody) !important;
+    margin-right: 0;
+  }
+    
+  
+  
+  /***** INSTAGRAM FEED *****/
+  .sw-instagram-container .sw-instagram-header-watermark {
+    display: none !important;
+  }
+  .sw-instagram-nav svg path {
+    fill: var(--colorTextBody);
+  } 
+  .instagram-feed .social-widget .sw-instagram-nav.nav-prev {
+    left: -10px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.3);
+    z-index: 10;
+  }
+  
+  .instagram-feed .social-widget .sw-instagram-nav.nav-next {
+    right: -10px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.3);
+    z-index: 10;
+  }
+  
+  .sw-instagram-header-info-checkbox,
+  .sw-instagram-caption {
+    display: none !important;
+  }
+  
+  .social-widget-header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-widget-header svg {
+    margin-right: 10px;
+  }
+  
+  
+  /***** TREE PLANTING BANNER *****/
+  .background-media-text__text a:last-of-type {
+    margin-left: 10px;
+  }
+  @media only screen and (max-width:768px) {
+    .background-media-text__image {
+      height: 100%;
+      object-fit: cover;
+    }  
+  }

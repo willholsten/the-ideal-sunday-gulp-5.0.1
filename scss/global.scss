@@ -1,0 +1,53 @@
+:root {
+    --colorHeader: #1E1E95;
+    --colorPink: #fd4b7f;
+    --colorLightBlue: #E5F7FF;
+    --colorYellow: #FFEE6E;
+    --colorLightYellow: #FFF9D8; 
+    --colorLightBlueLighter: #F6FBFD;
+    --colorLightPink: #ffecf2; 
+    --colorLightBeige: #FFFAF4;
+  
+    --borderRadius: 5px;
+    --buttonBorderRadius: 5px
+  }
+
+@import 'common.scss';
+@import 'header.scss';
+@import 'footer.scss'; 
+@import 'navigation.scss';
+@import 'cart.scss';
+@import 'homepage.scss';
+@import 'collection.scss';
+@import 'product.scss';
+@import 'custom-components.scss'; 
+@import 'blogs.scss';
+@import 'station-tabs.scss';
+@import 'problogger.scss';
+@import 'reviews-io.scss';
+@import 'cart-upsell.scss'; 
+@import 'omnisend.scss';   
+@import 'clearpay-klarna.scss';  
+@import 'plastic-free-july.scss';  
+
+@import 'section-page-heading.scss'; 
+@import 'section-full-image-text.scss'; 
+@import 'section-footer-company-values.scss'; 
+@import 'section-masonry-grid.scss';  
+@import 'section-product-values.scss';  
+@import 'section-featured-collection.scss';  
+
+@import 'flickity-slider.scss';  
+
+
+/***** FLITS *****/
+#CustomerLoginForm,
+#create_customer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.product-main-slide.is-selected .flits-wishlist-product-page {
+  opacity: 1 !important;
+}
+

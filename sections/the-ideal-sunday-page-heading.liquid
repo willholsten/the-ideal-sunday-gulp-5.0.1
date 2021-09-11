@@ -1,0 +1,56 @@
+<div class="the-ideal-sunday-intro-text {{ section_class }}" style="background-color: {{ section.settings.background_color }};">
+  <div class="page-width text-center">
+    {%- if section.settings.subtitle != blank -%}
+      <h1 class="h6">
+        {{ section.settings.subtitle | escape }}
+      </h1>
+    {%- endif -%}
+    {%- if section.settings.title != blank -%}
+      <p class="h2">
+        {{ section.settings.title | escape }}
+      </p>
+    {%- endif -%}
+    {%- if section.settings.text != blank -%}
+      <div class="rte">
+          {{ section.settings.text }}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "TIS Page Heading",
+    "settings": [
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle",
+          "default": "Sub Title"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Intro Text"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.</p>"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background colour",
+          "default": "#FFFAF4"
+        }
+      ],
+    "presets": [
+      {
+        "name": "TIS Page Heading"
+      }
+    ]
+  }
+{% endschema %}

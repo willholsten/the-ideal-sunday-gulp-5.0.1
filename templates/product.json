@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "dropdown",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 4,
+            "inventory_transfers_enable": true
+          }
+        },
+        "b8ab7c34-7426-4e2d-a8ee-a5236c80de02": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"buy-now-pay-later\">\n                <h3>Checkout today. Interest free.<\/h3>\n                <div class=\"klarna\">\n                  <img src=\"{{ 'tis-icon-klarna-2.svg' | asset_url }}\" alt=\"Pay with Klarna - interest-free\">\n                  <p onclick=\"kmerchant.openHostedInterstitial({ url: 'https:\/\/eu-assets.klarnaservices.com\/learn-more\/index.html?showButtons=true&amp;showBackground=false#eyJ0aWVySWQiOjc4NTA5NCwibGFuZ3VhZ2UiOiJFTiIsImNvdW50cnkiOiJHQiIsInB1cmNoYXNlQW1vdW50Ijo2NTAsImlzVGhyZXNob2xkIjp0cnVlLCJwYXltZW50TWV0aG9kSWQiOjksInRyYWNrZXJQYXJhbWV0ZXJzIjp7ImEiOiI4NjQ2NzAxZC1iNzJjLTNhNzYtODMwNi1kMjcxZjE3NmZmMzUiLCJiIjoiWEhpOUtpVHFrSGU0STFRSEhSSnVCIiwiZiI6IjM2IiwiaCI6IkVOIiwiaSI6IkdCIiwiaiI6ImEyMzAwMjk0LTU0MDMtNDRjNi1hYTE1LTNjZmZkYzkyOWYwNiIsImsiOiIxMDNkZjllNS0zODkzLTQyYjktOGM2NS02YmM5OGRhNTM2NzciLCJsIjoiMTgzMyIsIm4iOiJ0aGVpZGVhbHN1bmRheS5jb20iLCJzIjoiMTAwMSIsImQiOiJjcmVkaXQtcHJvbW90aW9uLWJhZGdlIiwiZyI6IjIxN2NiOTkwLWFiYzAtNTA5Zi1hNjJkLWU0ZDk2NWU2ZWRhYSIsImFhIjo2NTB9LCJ0aWVySGFzaCI6ImRjNDY0MmVhNzE2MWI0Y2FlY2M4YTUwMzBjNzRmZWQ0ZjQwMjIwYTA5YTUxZmQwZTQ2MzY4NzM0NDllOTNhNWUifQ==' }, arguments, undefined, this)\"\n                  >Pay in 3 instalments of £{{ product.price | divided_by: 100.00 | divided_by: 3 | round: 2 }}. Min spend £35.<\/p>\n                <\/div>  \n                <div class=\"clearpay clearpay-open\">\n                  <img src=\"{{ 'tis-icon-clearpay-4.svg' | asset_url }}\" alt=\"Pay with Clearpay - interest-free\">\n                  <p class=\"clearpay-button\">Pay in 4 instalments of £{{ product.price | divided_by: 100.00 | divided_by: 4 | round: 2 }}.<\/p>\n                <\/div>  \n              <\/div>"
+          }
+        },
+        "0739f922-e346-4914-aec9-f71cf305633c": {
+          "type": "separator",
+          "settings": {}
+        },
+        "313c474a-2bdf-49fe-b545-121fcd5f2b99": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"delivery-wrapper\">\n    <div>\n        <img src=\"{{ 'tis-icon-truck.svg' | asset_url }}\" alt=\"Estimated Delivery\">\n        <div>\n            <p class=\"h3\">Delivery just £2.95, free over £40<\/p>\n            <small>Want it sooner? Select 24hr delivery at checkout.<\/small>\n        <\/div>\n    <\/div>\n    <div>\n        <img src=\"{{ 'tis-icon-rocket.svg' | asset_url }}\" alt=\"Free Delivery over £40\">\n        <div>\n            <p class=\"h3\">You could earn {{ product.price | divided_by: 100.00 | times: 5 | round }} Reward Points<\/p>\n            <small>For every order and referral you can earn reward points and discounts. <a class=\"yellow-strike\" href=\"#smile-home\">Sign Up!<\/a><\/small>\n        <\/div>\n    <\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "inventory_status",
+        "b8ab7c34-7426-4e2d-a8ee-a5236c80de02",
+        "0739f922-e346-4914-aec9-f71cf305633c",
+        "313c474a-2bdf-49fe-b545-121fcd5f2b99"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "large",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "c04b8c8f-8f7f-431d-8813-e563b6ff35f2": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "c04b8c8f-8f7f-431d-8813-e563b6ff35f2"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Customers also purchased",
+        "related_count": 4
+      }
+    },
+    "163104497281bdeec3": {
+      "type": "the-ideal-sunday-reviews-slider",
+      "settings": {}
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 4
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "product-recommendations",
+    "163104497281bdeec3",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

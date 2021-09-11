@@ -1,0 +1,30 @@
+
+  .the-ideal-sunday-intro-text {
+    padding: 75px 0 25px;
+  }
+  
+  @media only screen and (min-width:769px) {
+    .the-ideal-sunday-intro-text {
+      padding: 100px 0 50px;
+    }
+  }
+  
+  .the-ideal-sunday-intro-text .h6 {
+    font-family: var(--typeBasePrimary);
+    color: var(--colorPink);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .the-ideal-sunday-intro-text .h2 {
+    font-size: calc(var(--typeHeaderSize)*.8);
+    margin: 0 auto 50px;
+    line-height: 1.4;
+    max-width: 750px;
+  }
+  
+  .the-ideal-sunday-intro-text p {
+    max-width: 600px;
+    margin: 0 auto;
+  }

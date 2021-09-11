@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "163109586413c75ef3": {
+      "type": "the-ideal-sunday-page-heading",
+      "settings": {
+        "subtitle": "Our Story",
+        "title": "We're here to bring you the best range of sustainable products for you and your home.",
+        "text": "",
+        "background_color": "#fffaf4"
+      }
+    },
+    "16311093494ae7350f": {
+      "type": "the-ideal-sunday-full-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our-mission.png",
+        "image_width": 320,
+        "subtitle": "Our Mission",
+        "title": "To inspire sustainable living through little changes. It's good for you and it's good for the planet.",
+        "text": "<p>We’ll achieve our mission by making sustainable living fun and accessible to everyone.<\/p><p>No one can be can be sustainable over night. This is a journey we’re taking together, and we're here to help you every step of the way. The Ideal Sunday is a place to learn, share and shop responsibly, with the confidence that we’re all playing a part in a greener future.<\/p>",
+        "button_label_1": "Optional button",
+        "button_link_1": "",
+        "button_label_2": "Optional button",
+        "button_link_2": "",
+        "layout": "right",
+        "background_color": "#ecffe8"
+      }
+    },
+    "163111083167e6ede3": {
+      "type": "the-ideal-sunday-full-image-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our-story.png",
+        "image_width": 500,
+        "subtitle": "Our Story",
+        "title": "It all started with a walk in the woods.",
+        "text": "<p>The Ideal Sunday started with a walk in the woods with a couple of friends on a sunny December afternoon. Inspired by the environment around us, and my new reusable coffee cup, I decided to start a company that helped connect regular people like us with awesome eco-friendly products. <\/p><p>The thought was simple - with small changes, we could change the world, without changing too much about our lives. A couple of months later - and just a few weeks before we catapulted into a global pandemic - I’d left my job (oops!), built our website (wahoo!) and filled my little flat with the beginnings of our small but perfectly formed product line.<\/p><p>We’re called The Ideal Sunday in honour of that afternoon.  It’s stuck around because we like it, and because it means something different to everyone. My ideal Sunday is about exercise, some delicious food, a walk in the woods. Yours could be a game of footy, a hungover breakfast, or an unprecedented lie-in without your kids! <\/p><p>Whatever it is, we want to help you enjoy it even more, by adding that feel-good factor of knowing you’re taking a step towards a greener future. So go ahead and check out our blog and products, and hopefully you’ll pick up some new ideas. We’re a place to learn, share and shop responsibly. You don’t have to change what you love, but maybe you can make it better 💚<\/p><p>Will - Founder of The Ideal Sunday<\/p>",
+        "button_label_1": "Shop Now",
+        "button_link_1": "shopify:\/\/collections\/all",
+        "button_label_2": "Read The Blog",
+        "button_link_2": "shopify:\/\/blogs\/eco-journal",
+        "layout": "left",
+        "background_color": "#fafafa"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Start with our best sellers",
+        "home_featured_products": "best-sellers",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163109586413c75ef3",
+    "16311093494ae7350f",
+    "163111083167e6ede3",
+    "featured-collection"
+  ]
+}

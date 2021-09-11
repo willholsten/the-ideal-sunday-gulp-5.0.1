@@ -1,0 +1,48 @@
+/*************************************************************************
+
+CUSTOM COMPONENTS
+
+*************************************************************************/
+
+  
+  /***** The Ideal Sunday - Floating Image with Text *****/
+  
+  .the-ideal-sunday-full-image-with-text.the-ideal-sunday-floating-image-with-text .image-wrap-wrapper {
+    position: relative;
+    height: 100%;
+    padding: 50px 0;
+    max-width: 90%;
+  }
+  
+  .the-ideal-sunday-full-image-with-text.the-ideal-sunday-floating-image-with-text .image-wrap {
+    overflow: visible;
+    background: transparent;
+  }
+  
+  .the-ideal-sunday-full-image-with-text.the-ideal-sunday-floating-image-with-text .feature-row__image {
+    position: absolute;
+    object-fit: contain;
+    border-radius: 0;
+    margin: 0 auto;
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .the-ideal-sunday-full-image-with-text.the-ideal-sunday-floating-image-with-text .h6 {
+    font-family: var(--typeBasePrimary);
+    color: var(--colorPink);
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  
+  #shopify-section-recently-viewed .index-section {
+    margin-bottom: 0;
+  }
+  
+  /***** The Ideal Sunday - Background Image with Text Box *****/
+  .background-media-text img {
+    border-radius: 0; 
+  }

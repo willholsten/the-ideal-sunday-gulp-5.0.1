@@ -1,0 +1,327 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Your one stop\neco shop.",
+            "title_size": 60,
+            "subheading": "Everything you need for a sustainable home... Like these plastic free, food storage jars from Green Island.",
+            "link": "shopify:\/\/collections\/green-island",
+            "link_text": "Green Island",
+            "link_2": "shopify:\/\/collections\/new-arrivals",
+            "link_text_2": "New Arrivals",
+            "color_accent": "#ffee6e",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/hp-hero-desktop_33559cae-b508-4ce5-8c13-c81e9522c5d2.png",
+            "image_mobile": "shopify:\/\/shop_images\/hp-hero-mobile_3f701b83-e5b3-4302-beb3-f17c26bcc2d4.png",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16312025586aa087d0": {
+      "type": "the-ideal-sunday-product-values-slider",
+      "blocks": {
+        "16312025586aa087d0-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/plastic-free.png",
+            "text": "Plastic Free",
+            "link": ""
+          }
+        },
+        "16312025586aa087d0-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/natural_ff33a55c-28f8-4897-8dbd-dbbeb498e300.png",
+            "text": "Natural",
+            "link": ""
+          }
+        },
+        "16312025586aa087d0-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-uk-delivery.png",
+            "text": "Free UK Delivery",
+            "link": ""
+          }
+        },
+        "16312025586aa087d0-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/uk-made.png",
+            "text": "UK Made",
+            "link": ""
+          }
+        },
+        "08c89472-093c-49ba-ab40-ea4c4451df32": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/handmade_23e56b1e-fd93-493f-9145-bd2591b9743f.png",
+            "text": "Handmade",
+            "link": ""
+          }
+        },
+        "184b502a-7ffd-4e54-94d7-997dca893c76": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/extra-tree.png",
+            "text": "Extra Trees",
+            "link": ""
+          }
+        },
+        "3d18e43b-cf88-47ad-a2bb-d1219c1dbe9d": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/recyclable_75cefd7f-7da2-467d-8d4d-c9e12826450e.png",
+            "text": "Recyclable",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16312025586aa087d0-0",
+        "16312025586aa087d0-1",
+        "16312025586aa087d0-2",
+        "16312025586aa087d0-3",
+        "08c89472-093c-49ba-ab40-ea4c4451df32",
+        "184b502a-7ffd-4e54-94d7-997dca893c76",
+        "3d18e43b-cf88-47ad-a2bb-d1219c1dbe9d"
+      ],
+      "settings": {
+        "title": "Shop By Values"
+      }
+    },
+    "1631185914fbd14df5": {
+      "type": "the-ideal-sunday-masonry-grid",
+      "blocks": {
+        "1631185914fbd14df5-0": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Deodorant.png",
+            "image_width": 220,
+            "image_vertical_position": 10,
+            "image_horizontal_position": 10,
+            "sub_title": "All Natural",
+            "text_position": "vertical-top horizontal-right",
+            "title": "Deodorant",
+            "link": "shopify:\/\/collections\/deodorant",
+            "background_color": "#fff5f4"
+          }
+        },
+        "1631185914fbd14df5-1": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skin-care.png",
+            "image_width": 390,
+            "image_vertical_position": 10,
+            "image_horizontal_position": -20,
+            "sub_title": "All Natural",
+            "text_position": "vertical-top horizontal-right",
+            "title": "Skin Care",
+            "link": "",
+            "background_color": "#eafceb"
+          }
+        },
+        "1631185914fbd14df5-2": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dental-care.png",
+            "image_width": 180,
+            "image_vertical_position": 10,
+            "image_horizontal_position": 5,
+            "sub_title": "Plastic Free",
+            "text_position": "vertical-top horizontal-right",
+            "title": "Dental Care",
+            "link": "shopify:\/\/collections\/dental",
+            "background_color": "#e7f4ff"
+          }
+        },
+        "1631185914fbd14df5-3": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/food-storage.png",
+            "image_width": 300,
+            "image_vertical_position": -5,
+            "image_horizontal_position": 0,
+            "sub_title": "Innovative",
+            "text_position": "vertical-top horizontal-right",
+            "title": "Food Storage",
+            "link": "shopify:\/\/collections\/food-storage",
+            "background_color": "#ffeee0"
+          }
+        },
+        "1631185914fbd14df5-4": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/water-bottles.png",
+            "image_width": 330,
+            "image_vertical_position": 20,
+            "image_horizontal_position": 10,
+            "sub_title": "Reusable",
+            "text_position": "vertical-top horizontal-left",
+            "title": "Water Bottles",
+            "link": "shopify:\/\/collections\/drinking-bottles",
+            "background_color": "#fffadf"
+          }
+        }
+      },
+      "block_order": [
+        "1631185914fbd14df5-0",
+        "1631185914fbd14df5-1",
+        "1631185914fbd14df5-2",
+        "1631185914fbd14df5-3",
+        "1631185914fbd14df5-4"
+      ],
+      "settings": {
+        "heading": "Discover Our Range",
+        "section_background": ""
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "4592f651-d460-4116-bce2-7c948907fee0": {
+          "type": "banner",
+          "settings": {
+            "heading": "Start your eco journey today",
+            "text": "",
+            "link": "shopify:\/\/collections\/all",
+            "label": "Shop All products",
+            "color_tint": "#fd4b7f",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "4592f651-d460-4116-bce2-7c948907fee0"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 10,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "1631265866a9f7ed31": {
+      "type": "the-ideal-sunday-featured-collection",
+      "settings": {
+        "title": "New Arrivals",
+        "home_featured_products": "new-arrivals",
+        "per_row": 4,
+        "rows": 3,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "163111225062c964f0": {
+      "type": "the-ideal-sunday-rich-text",
+      "disabled": true,
+      "blocks": {
+        "163111225062c964f0-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Welcome to The Ideal Sunday"
+          }
+        },
+        "163111225062c964f0-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We're your one stop eco shop, here to bring you the best range of sustainable products, supporting some incredible small businesses, and planting a forest along the way.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163111225062c964f0-0",
+        "163111225062c964f0-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false,
+        "background_color": "#fff9d8"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "New Arrivals",
+        "home_featured_products": "new-arrivals",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "163104503416409314": {
+      "type": "the-ideal-sunday-reviews-slider",
+      "settings": {}
+    },
+    "16311137238de8751d": {
+      "type": "the-ideal-sunday-blog-posts",
+      "settings": {
+        "title": "The Eco Journal",
+        "blog": "eco-journal",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": true,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false,
+        "background_color": "#e5f7ff"
+      }
+    },
+    "1631115273ca16dd06": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "Did you know?",
+        "title": "We plant trees!",
+        "text": "<p>We've teamed up with Ecologi and The Eden Reforestation Project to plant a tree for every order.<\/p>",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/pages\/tree-planting",
+        "image": "shopify:\/\/shop_images\/Ecologi_Banner.png",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": false
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "16312025586aa087d0",
+    "1631185914fbd14df5",
+    "promo-grid",
+    "1631265866a9f7ed31",
+    "163111225062c964f0",
+    "featured-collection",
+    "163104503416409314",
+    "16311137238de8751d",
+    "1631115273ca16dd06"
+  ]
+}

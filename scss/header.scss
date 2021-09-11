@@ -1,0 +1,155 @@
+/***** ANNOUNCEMENT BAR *****/
+.announcement-bar {
+  padding: 7px 0;
+}
+.announcement-link .announcement-link-text {
+  text-decoration: none;
+}
+
+.announcement-text {
+  text-transform: capitalize;
+  letter-spacing: var(--typeBaseSpacing);
+  font-size: calc(var(--typeBaseSize) * 0.95);
+  font-weight: 700;
+}
+
+/***** HEADER *****/
+#SiteHeader {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 769px) {
+  #SiteHeader {
+    padding-bottom: 5px;
+  }
+}
+
+.site-header--stuck,
+.site-header--opening {
+  transform: none;
+  transition: none;
+}
+
+@media only screen and (min-width: 769px) {
+  .site-header,
+  .site-header--stuck {
+    padding: 10px 0;
+  }
+}
+
+/***** LOGO *****/
+.header-layout[data-logo-align=center] .site-header__logo {
+  margin: 0 auto;
+}
+
+.site-header__logo a {
+  color: var(--colorHeader);
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 769px) {
+  .site-header__logo {
+    margin: 10px 0;
+  }
+
+  .site-header__logo a {
+    font-size: 26px;
+  }
+}
+
+/***** BURGER MENU ICON *****/
+#tis-burger-menu {
+  width: 19px;
+  height: 14px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#tis-burger-menu span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: var(--colorTextBody);
+  border-radius: 3px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+#tis-burger-menu span:nth-child(1) {
+  top: 0px;
+}
+
+#tis-burger-menu span:nth-child(2) {
+  top: 6px;
+  width: 80%;
+}
+
+#tis-burger-menu span:nth-child(3) {
+  top: 12px;
+}
+
+/***** Icons Set (Right)*****/
+[data-icon="bag-minimal"] .cart-link__bubble--visible {
+  left: 15px;
+}
+
+@media only screen and (min-width: 769px) {
+  .site-nav__link {
+    padding: 5px;
+  }
+}
+
+
+
+/***** Search *****/
+.site-header__search .page-width {
+  align-items: center;
+  padding: 0 17px;
+}
+
+.site-header__search-container form {
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  padding: 0;
+  margin-right: 0;
+  overflow: hidden;
+  height: 45px;
+  transition: all 0.3s;
+}
+
+.site-header__search-container form:hover {
+  background-color: #f4f4f4;
+}
+
+#SearchClose {
+  padding-right: 0;
+}
+
+@media only screen and (min-width: 769px) {
+  .site-header__search .page-width {
+    padding: 0 50px;
+  }
+  .site-header__search-btn--submit {
+    padding: 0 15px;
+  }
+}

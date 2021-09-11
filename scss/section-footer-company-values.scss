@@ -1,0 +1,71 @@
+
+  .company-values-inner {
+    margin: 0;
+    padding: 40px 0;
+  }
+  
+  @media only screen and (min-width: 769px) {
+    .company-values-inner {
+      padding: 100px 0;
+    }
+  }
+  
+  .company-values .section--divider {
+    border: none;
+  }
+  
+  .company-values .h3 {
+    display: inline-block;
+    font-family: var(--typeHeaderPrimary);
+    font-size: calc(var(--typeHeaderSize) * 0.5);
+    margin-bottom: 10px;
+  }
+  
+  .company-values .grid__item {
+    text-align: center;
+  }
+  
+  .company-values .grid__item .text-spacing {
+    padding: 0 25px;
+  }
+  
+  .company-values .grid__item {
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+  
+  .company-values .grid__item .article__grid-image {
+    margin-right: 20px;
+  }
+  
+  .company-values .grid__item .text-spacing {
+    padding: 0;
+  }
+  
+  .company-values .grid__item img {
+    display: none;
+  }
+  
+  .company-values .grid__item .image-wrap {
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 0;
+    margin: 0 auto;
+  }
+  
+  .company-values .grid__item:first-of-type .image-wrap {
+    background-image:url("tis-icon-ethical-brands.svg"); 
+  }
+  
+  .company-values .grid__item:nth-child(2) .image-wrap {
+    background-image:url("tis-icon-shopping-bag.svg"); 
+  }
+  
+  .company-values .grid__item:nth-child(3) .image-wrap {
+    background-image:url("tis-icon-trees.svg"); 
+  }
