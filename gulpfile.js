@@ -52,8 +52,8 @@ gulp.task('watch', function() {
     gulp.watch('scss/*.scss', gulp.series('sass'));
     gulp.watch('js/*.js', gulp.series('scripts'));
     gulp.watch('images/*.{jpg,jpeg,png,gif,svg}', gulp.series('images'));
-    // themeKit.command('watch', {
-    //     allowLive: true,
-    //     env: 'development'
-    // })
+    themeKit.command('watch', {
+        allowLive: true,
+        env: 'development'
+    })
 });
