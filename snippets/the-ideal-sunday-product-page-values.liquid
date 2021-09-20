@@ -18,12 +18,13 @@
     <div class="product-values-wrapper">
       <div class="product-values">
         {% for tag in values %}
-        {% assign tagName = tag | replace: "-", " " | remove: "value_" %}
+            {% assign tagName = tag | replace: "-", " " | remove: "value_" %}
+            {% assign tagClass = tag | replace: " ", "-" | remove: "value_" | downcase %}
             {% assign tag-file = tag | downcase | replace: " ", "-" | remove: "value_" | prepend: "tis-icon-product-" | append: ".svg" %}
             {% assign url = tag | downcase | replace: " ", "-" | remove: "value_" | prepend: "/collections/" | append: "-products" %}
-              <a href="{{url}}">
+              <a class="{{ tagClass }}" href="{{ url }}">
                 <img src="{{ tag-file | asset_url }}" alt="{{tag}}" onError="style.display = 'none';">
-                <span>{{tagName}}</span>
+                <h3>{{ tagName }}</h3>
               </a>
         {% endfor %}
       </div>

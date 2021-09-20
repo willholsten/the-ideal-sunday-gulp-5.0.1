@@ -123,7 +123,7 @@
     text-transform: capitalize;
     font-weight: 300;
     color: var(--colorTextBody);
-    font-size: calc(var(--typeBaseSize)*.85);
+    font-size: var(--typeBaseSizeSmall);
     letter-spacing: var(--typeBaseSpacing);
   }
   
@@ -142,7 +142,7 @@
     text-transform: capitalize;
     font-weight: 300;
     color: var(--colorTextBody);
-    font-size: calc(var(--typeBaseSize)*.85);
+    font-size: var(--typeBaseSizeSmall);
     letter-spacing: var(--typeBaseSpacing);
   }
   

@@ -4,6 +4,7 @@
   .tis-blog-posts .grid__image-ratio,
   .tis-blog-posts img {
     border-radius: var(--borderRadius) var(--borderRadius) 0 0;
+    max-height: 300px;
   }
   
   .tis-blog-posts .article__grid-image {
@@ -155,12 +156,12 @@
   }
   
   #shopify-section-article-template .article__date {
-    font-size: calc(var(--typeBaseSize)*.85);
+    font-size: var(--typeBaseSizeSmall);
     opacity: 0.7;
   }
   
   #shopify-section-article-template .article__author {
-    font-size: calc(var(--typeBaseSize)*.85);
+    font-size: var(--typeBaseSizeSmall);
     margin: 15px 0 25px;
     opacity: 0.7;
   }

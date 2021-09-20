@@ -14,9 +14,9 @@
         <h2 class="section-header__title">
           {{ section.settings.title }}
         </h2>
-        {%- if section.settings.view_all and section.settings.rows == 1 -%}
+        {%- if section.settings.view_all -%}
           <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
-        {%- endif -%}
+        {%- endif -%} 
       </div>
     </div>
   {%- endif -%}
@@ -46,7 +46,7 @@
             {%- assign emptyState = true -%}
           {%- endunless -%}
           
-            <div class="grid__item">
+            <div class="carousel-cell grid__item">
               <div class="grid grid--uniform">
                 
                   {%- for i in (1..product_limit) -%}
@@ -124,6 +124,12 @@
         "min": 1,
         "max": 5,
         "step": 1
+      },
+      {
+        "type": "checkbox",
+        "id": "view_all",
+        "label": "Show 'View all' link",
+        "default": true
       },
       {
         "type": "checkbox",

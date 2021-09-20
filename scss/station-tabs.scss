@@ -1,4 +1,19 @@
 /***** STATION TABS *****/
+.product-values-description-wrapper {
+  margin: 0 -17px;
+
+  .station-tabs.mod-full-width .station-tabs-link.is-active:after {
+    content: '-';
+  }
+
+  .station-tabs.mod-full-width .station-tabs-link:after {
+    content: '+';
+  }
+
+  @media only screen and (min-width:769px){ 
+    margin: 0 auto;
+  }
+}
 .station-tabs-wrapper {
     padding: 25px 0;
   }

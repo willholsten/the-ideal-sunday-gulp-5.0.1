@@ -1,0 +1,28 @@
+<div class="tis-progress-bar-container appear-animation appear-delay-4">
+  <div class="tis-progress-bar-message">
+    <span class="tis-progress-bar-message">Spend £40 more for free delivery!</span>
+  </div>
+  <div class="tis-progress-bar">
+    <progress class="tis-progress-bar-1" max="4000" value="{{ cart.total_price }}"></progress>
+    <span class="progress-stage-message-1">Free Delivery</span>
+    <progress class="tis-progress-bar-2" max="10000" value="{{ cart.total_price | minus: 4000 }}"></progress>
+    <span class="progress-stage-message-2">Save £10</span>
+  </div>
+</div>
+
+<!-- <div class="tis-progress-bar-container appear-animation appear-delay-4">
+  <div class="tis-progress-bar-message">
+    <span class="tis-progress-bar-message">Spend £40 more for free delivery!</span>
+  </div>
+  <div class="tis-progress-bar">
+    <progress class="tis-progress-bar-1" max="10000" value="{{ cart.total_price }}"></progress>
+    <span class="progress-stage-check-1"></span>
+    <span class="progress-stage-message-1">Free Delivery</span>
+    <progress class="tis-progress-bar-2" max="10000" value="{{ cart.total_price | minus: 4000 }}"></progress>
+    <span class="progress-stage-check-2"></span>
+    <span class="progress-stage-message-2">Save £10</span>
+  </div>
+</div> -->
+
+
+  

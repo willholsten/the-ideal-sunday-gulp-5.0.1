@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1631529525aac16426": {
+      "type": "the-ideal-sunday-page-heading",
+      "settings": {
+        "subtitle": "Delivery & Returns",
+        "title": "Express, plastic free delivery on all orders",
+        "text": "",
+        "background_color": "#FFFAF4"
+      }
+    },
+    "163152953286577f77": {
+      "type": "advanced-content",
+      "blocks": {
+        "163152953286577f77-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"index-section\">\n  <h2>Delivery<\/h2>\n  <p><strong>UK DELIVERY<\/strong><\/p>\n  <p><b>Free 48 Hour UK Delivery for orders over £40.<\/b><\/p>\n<p>Orders placed before 12pm Monday-Friday will dispatch same day.<\/p>\n  <div class=\"table-wrapper\"><table style=\"width: 100%; margin-bottom: 20px;\" border=\"1\">\n    <tbody>\n <tr>\n    <td style=\"width: 78.61060329067642%;\">Royal Mail 48 Hour (2-3 days)<\/td>\n    <td style=\"width: 17.915904936014627%; text-align: right;\">£2.95<\/td>\n    <\/tr>\n    <tr>\n    <td style=\"width: 78.61060329067642%;\">Royal Mail 24 Hour (1-2 Days)<\/td>\n    <td style=\"width: 17.915904936014627%; text-align: right;\">£4.75<\/td>\n    <\/tr>\n    <\/tbody> \n  <\/table><\/div>\n  <p><strong>INTERNATIONAL DELIVERY<\/strong><\/p>\n\n<p><b>Deliveries to Europe are currently on hold due to the new Brexit policies. We apologise for any inconvenience<\/b><\/p>\n <div class=\"table-wrapper\"><table style=\"width: 100%; margin-bottom: 20px;\" border=\"1\">\n    <tbody>\n    \n    <tr>\n    <td style=\"width: 78.61060329067642%;\">Outside Europe - Tracked (7-10 Working Days)<\/td>\n    <td style=\"width: 17.915904936014627%; text-align: right;\">£15.00<\/td>\n    <\/tr>\n    <\/tbody>\n  <\/table><\/div>\n\n<div class=\"delivery-notes text-block\">\n  <p>Delivery times are from time of dispatch.<\/p>\n  <p>Orders outside of the EU may be subject to customs charges and tax duty which you will need to pay before the order is delivered.<\/p>\n  <span><b>Customs Delays<\/b><\/span>\n  <p>Due to COVID-19 custom delivery officers worldwide are experiencing serious delays processing custom clearance.<\/p>\n<\/div>\n\n<div class=\"index-section\">\n  <h2>Returns<\/h2>\n  <p>\n    If you aren't 100% satisfied with your order you may return it to us as long\n    as it's unused and in it's original packaging. Please notify us within 14\n    days from date of dispatch by emailing\n    <a href=\"mailto:support@theidealsunday.com\">support@theidealsunday.com<\/a>\n    so we can organise the return.\n  <\/p>\n  <p>\n    Once your order has been returned and checked we will issue a refund\n    (excluding the delivery costs).\n  <\/p>\n  <p>\n    Unless your item is faulty you will be\n    responsible for paying the return delivery cost. We suggest you send\n    your returns via a tracked service as we cannot take any responsibility for\n    lost items.\n  <\/p>\n<p><b>Due to the nature of our products there are many that we are unable to accept back due to hygiene reasons, so please contact us before you send products back to us.<\/b><\/p>\n<\/div>\n<\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "163152953286577f77-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1631529525aac16426",
+    "163152953286577f77"
+  ]
+}

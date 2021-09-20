@@ -46,8 +46,10 @@
     font-family: var(--typeHeaderPrimary);
     font-size: calc(var(--typeHeaderSize) * 0.55);
     color: var(--colorHeader);
-    padding: 3px 15px;
     font-weight: var(--typeHeaderWeight);
+    padding: 3px 15px;
+    text-transform: capitalize;
+    letter-spacing: 0;
   }
 
   .mobile-nav .mobile-nav__link--top-level > .mobile-nav__faux-link {
@@ -179,7 +181,7 @@
 .site-navigation {
   > .site-nav__item > .site-nav__link {
     text-transform: capitalize;
-    padding: 7.5px 15px;
+    padding: 7.5px 10px;
     letter-spacing: 0;
   }
 
@@ -250,6 +252,10 @@
   text-align: left;
 }
 
+.site-nav .site-nav__item .site-nav__dropdown.megamenu .page-width > div {
+  display: flex;
+}
+
   .site-nav > .site-nav__item:nth-child(2) .megamenu,
   .site-nav > .site-nav__item:nth-child(3) .megamenu {
     border-bottom: 40px solid var(--colorLightBlue);
@@ -268,7 +274,7 @@
   .site-nav > .site-nav__item:nth-child(3) .megamenu .grid__item:last-of-type {
     position: absolute;
     left: 0;
-    bottom: -72px;
+    bottom: -50px;
     transition: none;
   }
 

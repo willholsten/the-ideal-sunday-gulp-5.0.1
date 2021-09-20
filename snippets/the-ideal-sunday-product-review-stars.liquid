@@ -1,10 +1,7 @@
 
 <a class="product-review-stars-container" href="#product-reviews">
-    <span class="ruk_rating_snippet product-review-stars" data-sku="{%- if sku -%}
-        {{ sku }}
-    {% else %}
-        {{ product.variants | map: 'sku' | join: ';' }}
-    {%- endif -%}">
+    <span class="ruk_rating_snippet product-review-stars" data-sku="{%- if sku -%}{{ sku }}{% else %}
+        {{ product.variants | map: 'sku' | join: ';' }}{%- endif -%}">
     </span>
 </a>
 

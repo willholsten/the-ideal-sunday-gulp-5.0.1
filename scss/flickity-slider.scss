@@ -1,8 +1,12 @@
 .flickity-slider-wrapper {
-    margin-right: -17px;
+    margin: 0 -17px;
+
+    .carousel-cell:first-of-type {
+        padding-left: 17px;
+    }
 
     @media only screen and (min-width: 769px) {
-        margin-right: -40px;
+        margin-right: -40px; 
     }
 
     @media only screen and (min-width: 1441px) {
@@ -21,52 +25,83 @@
     }
 }
 
-    .flickity-previous {
-        left: unset;
-        right: 60px;
+.flickity-button,
+.flickity-button:disabled {
+    display: none;
+}
+
+.flickity-button {
+    background: var(--colorLightBlue);
+  }
+
+.flickity-button-icon {
+    fill: var(--colorTextBody);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+   
+  }
+
+@media only screen and (min-width: 769px) {
+    .flickity-button,
+    .flickity-button:disabled {
+        display: block;
     }
 
-    .flickity-button {
-        background: var(--colorLightBlue);
-      }
-
-    .flickity-button-icon {
-        fill: var(--colorTextBody);
-      }
-
-      .flickity-button:disabled {
-        display: block;
+    .flickity-button:disabled {
         background-color: transparent;
-      }
+        }
 
-    &:after {
+    .previous, .next {
         display: block;
-        right: 0;
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.47) 33%, rgba(255, 255, 255, 0.79) 56%, rgba(255, 255, 255, 0.95) 80%, #ffffff 100%);
-        transition-duration: 400ms;
-        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-        content: "";
-        transition-property: opacity;
-        position: absolute;
-        height: 100%;
-        width: 150px;
-        top: 0;
-        opacity: 0;
-        pointer-events: none;
-        z-index: 1005;
+        left: unset;
     }
+
+    .previous {
+        right: 40px;
+    }
+
+    .next {
+        right: 0px;
+    }
+}
+    
+    
+
+      
+
+    // &:after {
+    //     display: block;
+    //     right: 0;
+    //     background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.47) 33%, rgba(255, 255, 255, 0.79) 56%, rgba(255, 255, 255, 0.95) 80%, #ffffff 100%);
+    //     transition-duration: 400ms;
+    //     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    //     content: "";
+    //     transition-property: opacity;
+    //     position: absolute;
+    //     height: 100%;
+    //     width: 150px;
+    //     top: 0;
+    //     opacity: 0;
+    //     pointer-events: none;
+    //     z-index: 1005;
+    // }
 }
 
 @media only screen and (min-width:1440px) {
     .flickity-slider-wrapper {
         margin-right: 0;
     }
-    .flickity-slider-wrapper:after {
-        opacity: 1;
-    }
-    .flikity-ended:after {
-        opacity: 0;
-    }
+    // .flickity-slider-wrapper:after {
+    //     opacity: 1;
+    // }
+    // .flikity-ended:after {
+    //     opacity: 0;
+    // }
 }
 
 

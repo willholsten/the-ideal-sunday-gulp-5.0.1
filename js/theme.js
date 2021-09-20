@@ -3852,7 +3852,7 @@ lazySizesConfig.expFactor = 4;
       theme.utils.wrap(siteHeader, wrapWith);
   
       stickyHeaderHeight();
-  
+   
       window.on('resize' + config.namespace, theme.utils.debounce(50, stickyHeaderHeight));
       window.on('scroll' + config.namespace, theme.utils.throttle(20, stickyHeaderScroll));
   
@@ -3888,7 +3888,7 @@ lazySizesConfig.expFactor = 4;
     }
   
     function scrollHandler() {
-      if (window.scrollY > 38) {
+      if (window.scrollY > 38) { 
         if (config.stickyActive) {
           return;
         }

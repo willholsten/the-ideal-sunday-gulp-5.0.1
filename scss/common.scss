@@ -7,15 +7,24 @@
     max-width: 1000px;
   }
 
+  .index-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .index-section-inner {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   @media only screen and (min-width:769px) {
+    .index-section {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
     .index-section-inner {
-      padding-top: 75px;
-      padding-bottom: 75px;
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
   }
 
@@ -32,7 +41,7 @@
   
   /***** TYPOGRAPHY *****/
   body {
-    font-size: calc(var(--typeBaseSize)*0.9);
+    font-size: var(--typeBaseSizeSmall);
   }
   @media only screen and (min-width:769px) {
     body {
@@ -237,7 +246,7 @@
     letter-spacing: var(--typeBaseSpacing);
     color: var(--colorTextBody);
     min-height: unset;
-    font-size: calc(var(--typeBaseSize) * 0.9);
+    font-size: var(--typeBaseSizeSmall);
   }
   
   .btn--tertiary {

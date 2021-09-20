@@ -27,7 +27,7 @@
         "slideshow-0"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "550px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
@@ -35,81 +35,8 @@
         "autoplay_speed": 7
       }
     },
-    "16312025586aa087d0": {
-      "type": "the-ideal-sunday-product-values-slider",
-      "blocks": {
-        "16312025586aa087d0-0": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/plastic-free.png",
-            "text": "Plastic Free",
-            "link": ""
-          }
-        },
-        "16312025586aa087d0-1": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/natural_ff33a55c-28f8-4897-8dbd-dbbeb498e300.png",
-            "text": "Natural",
-            "link": ""
-          }
-        },
-        "16312025586aa087d0-2": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/free-uk-delivery.png",
-            "text": "Free UK Delivery",
-            "link": ""
-          }
-        },
-        "16312025586aa087d0-3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/uk-made.png",
-            "text": "UK Made",
-            "link": ""
-          }
-        },
-        "08c89472-093c-49ba-ab40-ea4c4451df32": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/handmade_23e56b1e-fd93-493f-9145-bd2591b9743f.png",
-            "text": "Handmade",
-            "link": ""
-          }
-        },
-        "184b502a-7ffd-4e54-94d7-997dca893c76": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/extra-tree.png",
-            "text": "Extra Trees",
-            "link": ""
-          }
-        },
-        "3d18e43b-cf88-47ad-a2bb-d1219c1dbe9d": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/recyclable_75cefd7f-7da2-467d-8d4d-c9e12826450e.png",
-            "text": "Recyclable",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16312025586aa087d0-0",
-        "16312025586aa087d0-1",
-        "16312025586aa087d0-2",
-        "16312025586aa087d0-3",
-        "08c89472-093c-49ba-ab40-ea4c4451df32",
-        "184b502a-7ffd-4e54-94d7-997dca893c76",
-        "3d18e43b-cf88-47ad-a2bb-d1219c1dbe9d"
-      ],
-      "settings": {
-        "title": "Shop By Values"
-      }
-    },
     "1631185914fbd14df5": {
-      "type": "the-ideal-sunday-masonry-grid",
+      "type": "the-ideal-sunday-collection-grid",
       "blocks": {
         "1631185914fbd14df5-0": {
           "type": "grid_item",
@@ -190,7 +117,7 @@
         "1631185914fbd14df5-4"
       ],
       "settings": {
-        "heading": "Discover Our Range",
+        "heading": "",
         "section_background": ""
       }
     },
@@ -220,6 +147,128 @@
         "space_below": false
       }
     },
+    "16312025586aa087d0": {
+      "type": "the-ideal-sunday-product-values-slider",
+      "blocks": {
+        "758ea8c3-51f6-41cb-89d1-0afe94227a9c": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/plastic-free.png",
+            "text": "Biodegradable",
+            "link": "shopify:\/\/collections\/biodegradable-products",
+            "background_color": "#d3eff0"
+          }
+        },
+        "9482bd90-8797-4e25-bf48-e47533ff8e45": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/compostable_6fc058fa-74d3-4444-9ebf-db7c22df5c3d.png",
+            "text": "Compostable",
+            "link": "shopify:\/\/collections\/compostable-products",
+            "background_color": "#f4dbd6"
+          }
+        },
+        "184b502a-7ffd-4e54-94d7-997dca893c76": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/extra-tree.png",
+            "text": "Extra Trees",
+            "link": "shopify:\/\/collections\/extra-tree-products",
+            "background_color": "#e6fff3"
+          }
+        },
+        "16312025586aa087d0-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-uk-delivery.png",
+            "text": "Free UK Delivery",
+            "link": "shopify:\/\/collections\/free-delivery-products",
+            "background_color": "#f6e6ff"
+          }
+        },
+        "08c89472-093c-49ba-ab40-ea4c4451df32": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/handmade_23e56b1e-fd93-493f-9145-bd2591b9743f.png",
+            "text": "Handmade",
+            "link": "shopify:\/\/collections\/handmade-products",
+            "background_color": "#f9dcd0"
+          }
+        },
+        "fbb1e7db-28d6-4ac0-9011-85e1e33be92d": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/organic_db9d00da-ad0f-4e09-84ff-1ae720dc7953.png",
+            "text": "Organic",
+            "link": "shopify:\/\/collections\/organic-products",
+            "background_color": "#eafceb"
+          }
+        },
+        "16312025586aa087d0-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/natural_ff33a55c-28f8-4897-8dbd-dbbeb498e300.png",
+            "text": "Natural",
+            "link": "shopify:\/\/collections\/natural-products",
+            "background_color": "#fff1f5"
+          }
+        },
+        "16312025586aa087d0-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/plastic-free.png",
+            "text": "Plastic Free",
+            "link": "shopify:\/\/collections\/plastic-free-products",
+            "background_color": "#e7f4ff"
+          }
+        },
+        "3d18e43b-cf88-47ad-a2bb-d1219c1dbe9d": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/recyclable_75cefd7f-7da2-467d-8d4d-c9e12826450e.png",
+            "text": "Recyclable",
+            "link": "shopify:\/\/collections\/recyclable-products",
+            "background_color": "#ffeee0"
+          }
+        },
+        "16312025586aa087d0-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/uk-made.png",
+            "text": "UK Made",
+            "link": "shopify:\/\/collections\/uk-made-products",
+            "background_color": "#fad8dd"
+          }
+        },
+        "99e3326d-aeb7-4759-9d83-00789257631b": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vegan-friendly.png",
+            "text": "Vegan Friendly",
+            "link": "shopify:\/\/collections\/vegan-friendly-products",
+            "background_color": "#fffadf"
+          }
+        }
+      },
+      "block_order": [
+        "758ea8c3-51f6-41cb-89d1-0afe94227a9c",
+        "9482bd90-8797-4e25-bf48-e47533ff8e45",
+        "184b502a-7ffd-4e54-94d7-997dca893c76",
+        "16312025586aa087d0-2",
+        "08c89472-093c-49ba-ab40-ea4c4451df32",
+        "fbb1e7db-28d6-4ac0-9011-85e1e33be92d",
+        "16312025586aa087d0-1",
+        "16312025586aa087d0-0",
+        "3d18e43b-cf88-47ad-a2bb-d1219c1dbe9d",
+        "16312025586aa087d0-3",
+        "99e3326d-aeb7-4759-9d83-00789257631b"
+      ],
+      "settings": {
+        "title": "Shop By Values",
+        "description": "<p>Shop by the values that mean most to you. <\/p>",
+        "text_align": "center"
+      }
+    },
     "1631265866a9f7ed31": {
       "type": "the-ideal-sunday-featured-collection",
       "settings": {
@@ -227,8 +276,7 @@
         "home_featured_products": "new-arrivals",
         "per_row": 4,
         "rows": 3,
-        "mobile_scrollable": true,
-        "view_all": false,
+        "view_all": true,
         "divider": false
       }
     },
@@ -314,9 +362,9 @@
   },
   "order": [
     "slideshow",
-    "16312025586aa087d0",
     "1631185914fbd14df5",
     "promo-grid",
+    "16312025586aa087d0",
     "1631265866a9f7ed31",
     "163111225062c964f0",
     "featured-collection",

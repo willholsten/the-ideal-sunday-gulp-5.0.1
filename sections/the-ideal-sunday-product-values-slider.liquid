@@ -1,24 +1,27 @@
 <div class="page-width">
   
   {%- if section.settings.title != blank -%}
-    <div class="section-header">
-      <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+    <div class="section-header text-{{section.settings.text_align }}">
+      <h2 class="section-header__title">{{ section.settings.title }}</h2>
+      {%- if section.settings.description != blank -%}
+        <p class="section-header__subtitle">{{ section.settings.description }}</p>
+      {%- endif -%}
     </div>
   {%- endif -%}
 
+  
+
   {%- if section.blocks.size > 0 -%}
-    <div class="product-values-slider flickity-values-slider flickity-slider-wrapper">
+    <div class="product-values-slider flickity-values-slider flickity-slider-wrapper"> 
       {%- for block in section.blocks -%}
         <div class="values-bar__item carousel-cell" {{ block.shopify_attributes }}">
-          <div class="values-bar__item-inner">
+          <div class="values-bar__item-inner" style="background-color: {{ block.settings.background_color }};">
             {%- if block.settings.link != blank -%}
               <a href="{{ block.settings.link }}" class="values-bar__link">
             {%- endif -%}
             {%- if block.settings.image != blank -%}
-            <div class="values-bar__image-background">
               {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
               {{ block.settings.image | img_url: '160x160', scale: 2 | img_tag: block.settings.image.alt, 'values-bar__image' }}
-            </div>
             {%- else -%}
               {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
@@ -48,6 +51,27 @@
       "id": "title",
       "label": "Heading",
       "default": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Align",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left" 
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
     }
   ],
   "blocks": [
@@ -70,6 +94,11 @@
           "id": "link",
           "label": "Link",
           "info": "Optional"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Colour"
         }
       ]
     }

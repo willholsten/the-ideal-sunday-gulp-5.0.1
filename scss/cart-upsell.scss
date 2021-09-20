@@ -28,7 +28,7 @@ APP: CART UPSELL (PLANT A TREE)
   
   @media only screen and (min-width: 769px) {
     #nudge-offer-121485.multi.compact .product-image-wrapper {
-      width: 100px;
+      width: 60px;
     }
   }
   
@@ -52,7 +52,7 @@ APP: CART UPSELL (PLANT A TREE)
   #nudge-offer-121485.multi .offer-text {
     padding-left: 0 !important;
     font-family: var(--typeBasePrimary),var(--typeBaseFallback);
-    font-size: calc(var(--typeBaseSize) * 0.9) !important;
+    font-size: var(--typeBaseSizeSmall) !important;
     color: var(--colorTextBody);
     letter-spacing: var(--typeBaseSpacing);
     line-height: var(--typeBaseLineHeight);
@@ -61,7 +61,7 @@ APP: CART UPSELL (PLANT A TREE)
   
   #nudge-offer-121485 .product-price-wrapper {
     font-family: var(--typeBasePrimary),var(--typeBaseFallback);
-    font-size: calc(var(--typeBaseSize) * 0.9) !important;
+    font-size: var(--typeBaseSizeSmall) !important;
     letter-spacing: var(--typeBaseSpacing);
     line-height: var(--typeBaseLineHeight);
     color: var(--colorTextBody);
@@ -86,7 +86,7 @@ APP: CART UPSELL (PLANT A TREE)
     background-color: var(--colorYellow);
     color: var(--colorTextBody);
     font-family: var(--typeBasePrimary),var(--typeBaseFallback);
-    font-size: calc(var(--typeBaseSize)*0.85) !important;
+    font-size: var(--typeBaseSizeSmall) !important;
     letter-spacing: .07em;
     text-transform: uppercase;
     line-height: var(--typeBaseLineHeight);

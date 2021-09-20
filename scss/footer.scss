@@ -11,7 +11,7 @@ FOOTER
   }
   
   .site-footer .footer__collapsible{ 
-    font-size:calc(var(--typeBaseSize)*0.9);
+    font-size:var(--typeBaseSizeSmall);
   }
   
   @media only screen and (min-width:769px){

@@ -1,0 +1,136 @@
+.product-values-wrapper {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    position: relative;
+    // overflow: hidden;
+    margin: 0 0 20px;
+
+    @media only screen and (min-width:769px) {
+        display: inline-block;
+    }
+
+    .product-values {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        // overflow: auto;
+        // overflow-y: hidden;
+      }
+    
+      .product-values:after {
+        position: absolute;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 75%);
+        right: 0;
+        top: 0;
+        width: 45px;
+        height: 140px;
+        z-index: 10;
+        pointer-events: none;
+        content: "";
+      }
+      
+      .product-values a {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: var(--borderRadius);
+        border: 2px solid transparent;
+        padding: 15px;
+        height: 50px;
+        transition: all .5s;
+        margin-right: 17px;
+        margin-bottom: 17px;
+    
+        &:hover {
+            border: 2px solid var(--colorTextBody);
+
+            &:after {
+                border: none;
+            }
+        }
+
+        &.biodegradable {
+            background-color: #D3EFF0;
+        }
+
+        &.compostable {
+            background-color: #F4DBD6;
+        }
+
+        &.extra-tree {
+            background-color: #E6FFF3;
+        }
+
+        &.free-delivery {
+            background-color: #F6E6FF;
+        }
+
+        &.handmade {
+            background-color: #F9DCD0;
+        }
+
+        &.organic {
+            background-color: #EAFCEB;
+        }
+
+        &.natural {
+            background-color: #FFF1F5;
+        }
+
+        &.plastic-free {
+            background-color: #E7F4FF;
+        }
+
+        &.recyclable {
+            background-color: #FFEEE0;
+        }
+
+        &.uk-made {
+            background-color: #FAD8DD;
+        }
+    
+        &.vegan-friendly {
+            background-color: #fffadf;
+        }
+      }
+
+      .product-values img {
+        max-width: 40px !important;
+        max-height: 40px;
+      }
+      
+      .product-values h3 {
+        font-size: var(--typeBaseSize);
+        white-space: nowrap;
+        margin: 0;
+        margin-left: 15px;
+        line-height: 14px;
+      }
+      
+      /***** Hide scrollbar for Chrome, Safari and Opera *****/
+      .product-values::-webkit-scrollbar {
+        display: none;
+      }
+      
+      /***** Hide scrollbar for IE, Edge and Firefox *****/
+      .product-values {
+        -ms-overflow-style: none;
+        scrollbar-width: none; 
+      }
+  }
+  
+  
+
+  
+  
+  
+
+  
+
+  
+
+  

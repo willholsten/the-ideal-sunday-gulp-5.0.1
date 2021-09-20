@@ -9,7 +9,7 @@
 .announcement-text {
   text-transform: capitalize;
   letter-spacing: var(--typeBaseSpacing);
-  font-size: calc(var(--typeBaseSize) * 0.95);
+  font-size: var(--typeBaseSizeSmall);
   font-weight: 700;
 }
 
@@ -79,7 +79,7 @@
 #tis-burger-menu span {
   display: block;
   position: absolute;
-  height: 2px;
+  height: 1.5px;
   width: 100%;
   background: var(--colorTextBody);
   border-radius: 3px;

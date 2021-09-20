@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="https://assets.reviews.io/css/widgets/carousel-widget.css?_t=2021072212"> 
   <script src="https://widget.reviews.co.uk/product/dist.js"></script>
   <script src="https://widget.reviews.co.uk/rating-snippet/dist.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   {{ 'theme.css' | asset_url | stylesheet_tag }}
   {{ 'global.css' | asset_url | stylesheet_tag }}
   {%- render 'css-variables' -%}
@@ -79,6 +80,7 @@
   {{ content_for_header }}
 
   <script src="{{ 'vendor-scripts-v10.js' | asset_url | split: '?' | first }}" defer="defer"></script>
+  <script src="{{ 'flickity.js' | asset_url | split: '?' | first }}" defer="defer"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer="defer"></script>
 
   {%- if shop.enabled_currencies.size > 1 -%}
@@ -97,6 +99,8 @@
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="{{ settings.type_product_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
+
+  <script async src="https://eu-library.klarnaservices.com/lib.js" data-client-id="217cb990-abc0-509f-a62d-e4d965e6edaa"></script>
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 

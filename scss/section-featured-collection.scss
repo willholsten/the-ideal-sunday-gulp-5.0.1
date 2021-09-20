@@ -6,8 +6,11 @@
         width: 65vw;
     }
     @media only screen and (min-width: 769px) {
+        .featured-collection__item-inner {
+            width: 25%;
+        }
         .grid__item {
-            width: 27vw;
+            width: 100%;
         }
     }
 
@@ -22,10 +25,10 @@
     
 }
 
-.featured-collection__item-inner:last-of-type {
-    padding-right: 17px;
 
-    @media only screen and (min-width: 769px) {
-        padding-right: 40px;
+@media only screen and (min-width: 768px) {
+    .featured-collection__item-inner:last-of-type {
+        padding-right: 17px;
     }
+    
 }

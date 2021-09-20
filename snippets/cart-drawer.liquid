@@ -15,12 +15,13 @@
 
       <div class="drawer__inner">
         <div class="drawer__scrollable">
-          <div data-products class="appear-animation appear-delay-2"></div>
+          {% render 'the-ideal-sunday-progress-bar' %}
+          <div data-products class="appear-animation appear-delay-4 cart__products"></div>
 
           {% if settings.cart_notes_enable %}
-            <div class="appear-animation appear-delay-3 cart-gift-message">
-              <label for="CartNoteDrawer">{{ 'cart.general.note' | t }}</label>
-              <textarea name="note" class="input-full cart-notes" id="CartNoteDrawer">{{ cart.note }}</textarea>
+            <div class="appear-animation appear-delay-4 cart-gift-message">
+              <label class="cart__gift-message" for="CartNoteDrawer">{{ 'cart.general.note' | t }}</label>
+              <textarea name="note" class="input-full cart-notes hide" id="CartNoteDrawer">{{ cart.note }}</textarea>
             </div>
           {% endif %}
         </div>
@@ -69,8 +70,8 @@
 
           <div class="cart__checkout-wrapper">
             <button type="submit" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout">
-              {{ 'cart.general.checkout' | t }}
               <img src="{{ 'tis-icon-padlock.svg' | asset_url }}" alt="Checkout Securely">
+              {{ 'cart.general.checkout' | t }}
             </button>
 
             {% if additional_checkout_buttons and settings.cart_additional_buttons %}

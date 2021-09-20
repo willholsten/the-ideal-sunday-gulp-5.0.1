@@ -44,8 +44,9 @@
   .the-ideal-sunday-full-image-with-text .feature-row .feature-row__text {
     display: flex;
     align-items: center;
+    justify-content: center;
     min-width: 40%;
-    padding: 100px;
+    padding: 100px 20px;
   }
 
   .the-ideal-sunday-full-image-with-text .feature-row .feature-row__text .h2 {

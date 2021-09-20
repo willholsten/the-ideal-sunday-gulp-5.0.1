@@ -156,7 +156,7 @@ i.stars__icon--0:before,
 }
 
 .station-tabs-link .ruk-rating-snippet-count {
-  font-size: calc(var(--typeBaseSize) * 0.9);
+  font-size: var(--typeBaseSizeSmall);
   font-weight: var(--typeBaseWeight);
 }
 
@@ -257,7 +257,7 @@ i.stars__icon--0:before,
   font-family:var(--typeBasePrimary),var(--typeBaseFallback);
   color: var(--colorTextBody) !important;
   opacity: 0.5;
-  font-size: calc(var(--typeBaseSize) * 0.85) !important;
+  font-size: var(--typeBaseSizeSmall) !important;
 }
 
 .homepage-reviews #homepage-review-carousel #ReviewsIo-CardCarousel .ReviewsFooter {
