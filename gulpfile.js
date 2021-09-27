@@ -53,7 +53,7 @@ gulp.task('watch', function() {
     gulp.watch('js/*.js', gulp.series('scripts'));
     gulp.watch('images/*.{jpg,jpeg,png,gif,svg}', gulp.series('images'));
     themeKit.command('watch', {
-        allowLive: true,
+        // allowLive: true,
         env: 'development'
     })
 });
