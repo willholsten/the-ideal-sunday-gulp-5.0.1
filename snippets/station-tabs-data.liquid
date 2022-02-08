@@ -47,28 +47,6 @@
   59658^^About Milly & Sissy^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^|260610785354|||^^^^^^0^^~~
   {%- capture content %}<p>{{ collections['corinne-taylor'].description }}</p>{% endcapture -%}
   59660^^About Corinne Taylor^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^|169792569418|||^^^^^^0^^~~
-  {%- capture content %}<p><em>Order before 12pm for same day dispatch.</em></p>
-<p><strong>Free 48 Hour UK Delivery on orders over &pound;40!</strong></p>
-<table style="width: 100%; margin-bottom: 20px;" border="1">
-<tbody>
-<tr>
-<td style="width: 78.61060329067642%;">Standard - Tracked (2-3 days)</td>
-<td style="width: 17.915904936014627%; text-align: right;">&pound;3.50</td>
-</tr>
-<tr>
-<td style="width: 78.61060329067642%;">Premium - Next Day (Orders before 12PM)</td>
-<td style="width: 17.915904936014627%; text-align: right;">&pound;6.00</td>
-</tr>
-<tr>
-<td style="width: 78.61060329067642%;">Rest of the World - Tracked (7-10 Working Days)</td>
-<td style="width: 17.915904936014627%; text-align: right;">&pound;15.00</td>
-</tr>
-</tbody>
-</table>
-<p>All delivery times are from time of dispatch.</p>
-<p>We offer a full refund on items returned within 14 days of purchase. You will be responsible for delivery charges unless the items are damaged or incorrect.</p>
-<p>Head to&nbsp;<a title="The Ideal Sunday Delivery &amp; Returns" href="https://theidealsunday.com/pages/delivery-returns">Delivery &amp; Returns</a>&nbsp;for more information.</p>{% endcapture -%}
-  35466^^Delivery & Returns^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^0||||^^4535484579914,4586601906250^^^^0^^~~
   {%- capture content %}<p>{{ collections['sol-de-ibiza'].description }}</p>{% endcapture -%}
   59661^^About Sol De Ibiza^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^|260480204874|||^^^^^^0^^~~
   {%- capture content %}{{ collections['ecococonut'].description }}{% endcapture -%}
@@ -109,6 +87,32 @@
   65041^^About Kleensoaps^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^|261056135242|||^^^^^^0^^~~
   {%- capture content %}{%- render 'the-ideal-sunday-reviewsio-polaris' -%}{% endcapture -%}
   66599^^Product Reviews^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^0||||^^^^^^0^^~~
+  {%- capture content %}<p><em>Order before 12pm for same day dispatch.</em></p>
+<p><strong>Free UK Standard Delivery on orders over &pound;40!</strong></p>
+<table style="width: 100%; margin-bottom: 20px;" border="1">
+<tbody>
+<tr>
+<td style="width: 78.61060329067642%;">Standard - Tracked (2-3 days)</td>
+<td style="width: 17.915904936014627%; text-align: right;">&pound;3.50</td>
+</tr>
+<tr>
+<td style="width: 78.61060329067642%;">Premium - Next Day (Orders before 12PM)</td>
+<td style="width: 17.915904936014627%; text-align: right;">&pound;6.00</td>
+</tr>
+<tr>
+<td style="width: 78.61060329067642%;">Europe - Tracked (3-5 Working Days)</td>
+<td style="width: 17.915904936014627%; text-align: right;">&pound;20.00</td>
+</tr>
+<tr>
+<td style="width: 78.61060329067642%;">Rest of the World - Tracked (7-10 Working Days)</td>
+<td style="width: 17.915904936014627%; text-align: right;">&pound;20.00</td>
+</tr>
+</tbody>
+</table>
+<p>All delivery times are from time of dispatch.</p>
+<p>We offer a refund on items returned within 14 days of purchase. You will be responsible for delivery charges unless the items are damaged or incorrect.</p>
+<p>Head to&nbsp;<a title="The Ideal Sunday Delivery &amp; Returns" href="https://theidealsunday.com/pages/delivery-returns">Delivery &amp; Returns</a>&nbsp;for more information.</p>{% endcapture -%}
+  35466^^Delivery & Returns^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^0||||^^4535484579914,4586601906250^^^^0^^~~
 {%- endcapture -%}
 {%- assign tabs_array = tabs | strip | split: '~~' -%}
 {%- assign p_id_str = product.id | downcase -%}
